@@ -1,0 +1,43 @@
+Command: node --test
+Exit code: 0
+
+TAP version 13
+# Subtest: accepts a well-formed text-layer proposal
+ok 1 - accepts a well-formed text-layer proposal
+  ---
+  duration_ms: 1.270428
+  type: 'test'
+  ...
+# Subtest: rejects unknown action types
+ok 2 - rejects unknown action types
+  ---
+  duration_ms: 0.490831
+  type: 'test'
+  ...
+# Subtest: rejects non-allowlisted layer properties
+ok 3 - rejects non-allowlisted layer properties
+  ---
+  duration_ms: 0.16517
+  type: 'test'
+  ...
+# Subtest: valid proposals still require confirmation
+ok 4 - valid proposals still require confirmation
+  ---
+  duration_ms: 0.13282
+  type: 'test'
+  ...
+# Subtest: agent review does not execute the proposal
+ok 5 - agent review does not execute the proposal
+  ---
+  duration_ms: 0.189155
+  type: 'test'
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 5
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 87.376777
