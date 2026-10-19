@@ -1,0 +1,13 @@
+{
+  "name": "ae-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Privacy-aware, provider-agnostic assistant for Adobe After Effects",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
