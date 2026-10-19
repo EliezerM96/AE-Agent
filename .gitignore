@@ -1,0 +1,27 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Adobe project/media files
+*.aep
+*.aepx
+*.aet
+*.mov
+*.mp4
+*.wav
+*.psd
+*.ai
+*.exr
+
+# Dependencies and build outputs
+node_modules/
+dist/
+build/
+coverage/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
